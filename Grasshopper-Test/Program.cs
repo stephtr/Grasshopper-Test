@@ -37,6 +37,6 @@ foreach (var use12Bit in new bool[] { false, true })
         dataExposures += "\n";
     }
 
-    File.WriteAllText($"grasshopper-{(use12Bit ? "12bit" : "10bit")}.dat", data);
-    File.WriteAllText($"grasshopper-{(use12Bit ? "12bit" : "10bit")}-exposures.dat", dataExposures);
+    File.WriteAllText($"grasshopper-{(use12Bit ? "12bit" : "10bit")}.txt", data);
+    File.WriteAllText($"grasshopper-{(use12Bit ? "12bit" : "10bit")}-exposures.txt", dataExposures);
 }
