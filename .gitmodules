@@ -1,0 +1,6 @@
+[submodule "experiment-framework"]
+	path = experiment-framework
+	url = https://github.com/stephtr/experiment-framework
+[submodule "experiment-components"]
+	path = experiment-components
+	url = https://github.com/stephtr/experiment-components
